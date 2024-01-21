@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginBottom="@dimen/common_padding_min">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/entrega"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/rojo_secundario"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Mesa 1" />
+            <!-- Segundo TextView con peso 1 -->
+            <TextView
+                android:id="@+id/plato"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/rojo_tercero"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Plato 2" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/alimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_min"
+            android:padding="7dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/linear"
+            app:layout_constraintTop_toBottomOf="@id/linear"
+            tools:text="Tacos" />
+
+
+        <TextView
+            android:id="@+id/cantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_min"
+            android:padding="7dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/alimento"
+            app:layout_constraintTop_toBottomOf="@id/linear"
+            tools:text="6" />
+
+
+        <TextView
+            android:id="@+id/complemento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_min"
+            android:padding="7dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/cantidad"
+            app:layout_constraintTop_toBottomOf="@id/linear"
+            tools:text="C/T" />
+
+        <TextView
+            android:id="@+id/notas"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:maxLines="6"
+            android:padding="8dp"
+            android:text="@string/texto_notas"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/linear"
+            app:layout_constraintStart_toEndOf="@id/complemento"
+            app:layout_constraintTop_toBottomOf="@id/linear" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

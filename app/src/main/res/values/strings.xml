@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Meseros Soria´s</string>
+    <string name="alimentros">Alimentos</string>
+    <string name="texto_notas">estas son notas personalisadas para la muestra del producto, y que se vea mas grande en el layout gdfgh gh gfh gh </string>
+    <string name="descripcion_floatbutton">agregar nueva mesa\n</string>
+    <string name="tacos">Tacos</string>
+
+
+    <string name="gringas">Gringas</string>
+    <string name="tortas">Tortas</string>
+    <string name="quesadillas">Tortas</string>
+    <string name="carne_jugo">Carne en su jugo</string>
+    <string name="volcanes">Volcanes</string>
+
+    <string name="m1">Mesa 1</string>
+    <string name="m2">Mesa 2</string>
+    <string name="m3">Mesa 3</string>
+    <string name="m4">Mesa 4</string>
+    <string name="m5">Mesa 5</string>
+
+    <string name="ct">C/T</string>
+    <string name="sceb">S/SIL.</string>
+    <string name="scil">S/CEB.</string>
+
+    <string name="p1">Plato 1</string>
+    <string name="p2">Plato 2</string>
+    <string name="p3">Plato 3</string>
+    <string name="p4">Plato 4</string>
+    <string name="p5">Plato 5</string>
+
+
+</resources>

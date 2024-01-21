@@ -1,0 +1,7 @@
+<!-- dropdown_menu_item.xml -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:textColor="@color/rojo_principal"
+    android:textSize="16sp" />
